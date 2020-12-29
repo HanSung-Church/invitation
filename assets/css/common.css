@@ -79,7 +79,7 @@ letter-spacing:normal;
 
 
 .top { width: 100%; height: 555px; background: #b7edf7;}
-.top .inner { width: 100%; max-width: 375px; height: 100%; margin: 0 auto; background: url(../../assets/images/top.jpg) center 0 no-repeat; background-size: 100% auto; }
+.top .inner { width: 100%; max-width: 375px; height: 100%; margin: 0 auto; background: url(../../assets/images/top.png) center 0 no-repeat; background-size: 100% auto; }
 
 .con { width: 100%; padding: 54px 0 63px; background: #99cccc; }
 .con .inner { width: 100%; max-width: 345px; margin: 0 auto; padding: 0 15px; }
