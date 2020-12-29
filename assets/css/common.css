@@ -82,19 +82,23 @@ letter-spacing:normal;
 .top .inner { width: 100%; max-width: 375px; height: 100%; margin: 0 auto; background: url(../../assets/images/top.jpg) center 0 no-repeat; background-size: 100% auto; }
 
 .con { width: 100%; padding: 54px 0 63px; background: #99cccc; }
-.con .inner { width: 100%; max-width: 375px; margin: 0 auto; }
+.con .inner { width: 100%; max-width: 345px; margin: 0 auto; padding: 0 15px; }
 .link1 { width: 100%; border-radius: 10px; box-shadow: 0px 28px 45.1px 3.9px rgba(49, 203, 232, 0.17); }
 .linkbox { display: flex; justify-content: space-between; margin-top: 20px; }
 .linkbox a { width: calc((100% - 20px) / 2); box-shadow: 0px 8px 45.1px 3.9px rgba(49, 203, 232, 0.17); }
 .linkbox + .link1 { margin-top: 20px; }
 .link1 + .link1 { margin-top: 15px; }
 
-footer { width: 100%; padding: 0 0 46px; background: #99cccc; }
-footer .inner { width: 100%; max-width: 375px; margin: 0 auto; background-size: 100% auto; }
+footer { width: 100%; padding: 0 0 46px; background: #99cccc;  }
+footer .inner { width: 100%; max-width: 345px; margin: 0 auto; background-size: 100% auto; }
 
 
 @media all and (max-width:360px) {
     .top { height: 480px; }
+    .con { padding: 45px 0 55px; }
+    .con .inner { max-width: 290px; }
+    footer { padding: 0 0 35px; }
+    footer .inner { max-width: 290px; }
 }
 
 
