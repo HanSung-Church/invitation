@@ -101,8 +101,8 @@ footer .inner { width: 100%; max-width: 345px; margin: 0 auto; background-size: 
     footer .inner { max-width: 290px; }
 }
 
-
-image-rendering: -moz-crisp-edges; 
+/* //색상대조와 이미지 표준에 맞게 */
+image-rendering: -moz-crisp-edges;  
 image-rendering: -o-crisp-edges;
 image-rendering: -webkit-optimize-contrast;
 image-rendering: -crisp-edges;
