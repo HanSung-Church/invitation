@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
 	<meta name="format-detection" content="telephone=no, address=no, email=no">
@@ -10,6 +10,42 @@
     <meta property="og:image" content="https://user-images.githubusercontent.com/62317791/103292192-af9b2c80-4a30-11eb-81f4-dab66234fa81.png" />
     <title>HAPPY NEW YEAR, 송구영신예배 | 엑소더스 2021</title>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+    <!-- JavaScript -->
+  <!--   <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script type='text/javascript'>
+        //<![CDATA[
+          // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+          Kakao.init('0ea702deeb89ca03d3d2f703de9d1686');
+          // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+          Kakao.Link.createDefaultButton({
+            container: '#kakao-link-btn',
+            objectType: 'feed',
+            content: {
+              title: $('meta[property="og:title"]').attr( 'content' ),
+              description: $('meta[property="og:description"]').attr( 'content' ),
+              imageUrl: $( 'meta[property="og:image"]' ).attr( 'content' ),
+              link: {
+                mobileWebUrl: window.location.href,
+                webUrl: window.location.href
+              }
+            },
+            social: {
+              likeCount: 286,
+              commentCount: 45,
+              sharedCount: 845
+            },
+            buttons: [
+              {
+                title: '웹으로 보기',
+                link: {
+                  webUrl:https://drawoo.github.io/mobile/.
+                }
+              }
+            ]
+          });
+        //]]>
+      </script> -->
+
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/common.css">
@@ -34,11 +70,15 @@
     </div>
     <footer>
         <div class="inner">
+            <!-- <a id="kakao-link-btn" href="javascript:sendLink()">
+                카카오톡 공유하기 버튼
+              </a> -->
             <img src="assets/images/footer.png" alt="푸터이미지" />
             <span class="blind">HAPPY PEOPLE HAPPY WORLD</span>
             <span class="blind">HANSUNG PRESBYTERIAN CHURCH 한성교회</span>
         </div>
     </footer>
 </div>
+
 </body>
 </html>
